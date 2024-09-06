@@ -1,0 +1,135 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-family: modern antiqua;
+}
+
+h3 {
+    font-family: modern antiqua;
+    text-shadow: #818181 2px 2px 4px;
+}
+
+li {
+    font-family: modern antiqua;
+}
+
+body {
+    background-color: black;
+}
+
+#name {
+    font-family: modern antiqua;
+}
+
+footer {
+    padding-bottom: 30px; 
+    margin-bottom: 0; 
+}
+
+#presentation {
+    font-family: modern antiqua;
+}
+
+.background {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+.container-header, .container-main, .container-footer {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px double #1f008e; 
+}
+
+.container-imagen {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.container-texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.container-texto-section {
+    margin: 2cm;
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.5;
+    text-shadow: 2px 2px 4px rgba(24, 11, 121, 0.7);
+}
+
+.container-texto-footer {
+    margin: 2cm;
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.5;
+    text-shadow: 2px 2px 4px rgba(24, 11, 121, 0.7);
+}
+
+button {
+    font-family: modern antiqua;
+    background-color: #050183;
+    color: white;
+    border: double;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+#container-aboutMe {
+    background-color: #03005b;
+    text-align: center;
+}
+
+#container-skills {
+    text-align: center;
+    background-color: #03005b;
+}
+
+#container-skillsList {
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0; 
+}
+
+#container-contactMe {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+body {
+    cursor: col-resize;
+}

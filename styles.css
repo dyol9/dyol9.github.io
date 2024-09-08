@@ -33,6 +33,7 @@ footer {
 
 #presentation {
     font-family: modern antiqua;
+    font-size: 2vw;
 }
 
 .background {
@@ -117,7 +118,7 @@ button:hover {
 
 #container-skills {
     text-align: center;
-    background-color: #03005b;
+    background-color: #040157;
 }
 
 #container-skillsList {
@@ -156,4 +157,4 @@ body {
             width: 100%;
             padding: 10px;
         }
-    }   
+    } 
